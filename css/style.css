@@ -170,6 +170,10 @@ height: 104px;
   gap: 24px;
   list-style: none;
 }
+.photo li{background-color: #fff;
+  border-radius: 0 0 4px 4px;}
+
+
 .photo img{width: 100%;
   height: auto;
   display: block;}
@@ -223,9 +227,10 @@ height: 1000px;
   margin-top: 72px;
   margin-bottom: 120px;
 gap: 24px;}
-.apps li {
+
+.apps li { width: 360px;
   background-color: #fff;
-  border-radius: 12px;
+  border-radius: 0 0 4px 4px;
   text-align: left;}
 
 .apps img {
