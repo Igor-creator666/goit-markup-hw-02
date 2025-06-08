@@ -14,27 +14,30 @@ color: #4d5ae5;
 .header-span{
 color: #2e2f42;
 }
-.first{ font-size: 16px ;
+.first{ font-weight: 500;
+  font-size: 16px ;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.first :hover{color: #404bbf;}
-.first :focus{color: #404bbf;}
+.first:hover{color: #404bbf;}
+.first:focus{color: #404bbf;}
 
-.second{font-size: 16px ;
+.second{ font-weight: 500;
+  font-size: 16px ;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;}
-.second :hover{color: #404bbf;}
-.second :focus{color: #404bbf;}
+.second:hover{color: #404bbf;}
+.second:focus{color: #404bbf;}
 
-.third{font-size: 16px ;
+.third{ font-weight: 500;
+  font-size: 16px ;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;}
-.third :hover{color: #404bbf;}
-.third :focus{color: #404bbf;}
+.third:hover{color: #404bbf;}
+.third:focus{color: #404bbf;}
 
 .address{font-style: normal;}
 .mail{font-size: 16px;
@@ -42,11 +45,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.mail :hover{color: #404bbf;}
-.mail :focus{color: #404bbf;}
+.mail:hover{color: #404bbf;}
+.mail:focus{color: #404bbf;}
 .phone{font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
-.phone :hover{color: #404bbf;}
-.phone :focus{color: #404bbf;}
+.phone:hover{color: #404bbf;}
+.phone:focus{color: #404bbf;}
