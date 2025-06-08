@@ -21,25 +21,14 @@ h1, h2, h3, .logo { font-family: 'Raleway', sans-serif; }
 .logo { font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-decoration: none;
-}
-.web,
-.studio-logo {
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 18px;
-}
-.web {
- font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; 
-  margin-left: 156px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
 }
+.footer-span{color: #2e2f42;}
+
 .studio-logo {
   color: #2e2f42;
   margin-right: 76px;
