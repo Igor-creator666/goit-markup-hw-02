@@ -29,7 +29,7 @@ h1, h2, h3, .logo { font-family: 'Raleway', sans-serif; }
 }
 .footer-span{color: #2e2f42;}
 
-.studio-link {font-weight: 500;
+.studio-link,.portfolio,.Contacts {font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -40,9 +40,9 @@ h1, h2, h3, .logo { font-family: 'Raleway', sans-serif; }
 .studio-link:focus {
   color: #404bbf;
   outline: none;}
+
 .menu {
   list-style: none;
-  
   margin: 0;
   color: #2e2f42;
   font-weight: 500;
@@ -50,23 +50,16 @@ h1, h2, h3, .logo { font-family: 'Raleway', sans-serif; }
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu a {
-  text-decoration: none;
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
-.contacts {
+
+.contact {font-style: normal;
+  line-height: 1.5;
+  font-size: 16px;
   list-style: none;
   margin-right: 156px;
-  
-
 }
-.mail,
-.phone {
+.mail-link,
+.phone-link {
   text-decoration: none;
   color: #434455;
   font-weight: 400;
@@ -74,7 +67,14 @@ h1, h2, h3, .logo { font-family: 'Raleway', sans-serif; }
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.mail-link:hover,
+.mail-link:focus {
+  color: #404bbf;
+  outline: none;}
+.phone-link:hover,
+.phone-link:focus {
+  color: #404bbf;
+  outline: none;}
 .Effective {background-color: #2e2f42;     
    text-align: center;
   justify-content: center;
