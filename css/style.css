@@ -12,16 +12,11 @@ body {color: #434455;
   color: black;
 }
 .header-container{
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   margin: auto;
-  width: 1440px;
-  height: 72px;}
+  }
 .nav {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+
 }
 .logo { font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -50,11 +45,9 @@ body {color: #434455;
   margin-right: 76px;
 }
 .menu {
-  display: flex;
   list-style: none;
-  gap: 40px;
+  
   margin: 0;
-  padding: 0;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -71,11 +64,9 @@ body {color: #434455;
 }
 
 .contacts {
-  display: flex;
-   align-items: center;
   list-style: none;
   margin-right: 156px;
-  gap: 40px;
+  
 
 }
 .mail,
@@ -89,29 +80,22 @@ body {color: #434455;
 }
 
 .Effective {
-  display: flex;
    text-align: center;
-  flex-direction: column;
+
   justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
   color: white;
   margin: auto;
 }
 .Effective h1 {
   margin-bottom: 48px;
-  width: 500px;
+  
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
 }
 .section-middle{color: rgba(0, 0, 0, 0.01);}
 button {
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -120,31 +104,22 @@ button {
   cursor: pointer;
   border: none;
   background: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  ;
 }
 .sectisection-Strategy {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: auto;
-  padding: 120px 0;
-  width: 100%;
   background: #fff;
 
   color: black;
 }
 .Strategy {
-  width: 1128px;
-height: 104px;
-  display: flex;
-  align-items: center;
   margin: auto;
   margin-top: 120px;
   list-style: none;
-  gap: 24px;
+  
 }
 .Strategy li {
-  width: 264px;
+ 
 }
 
 .Strategy h3 {
@@ -156,7 +131,7 @@ height: 104px;
 }
 .team {
  background-color: #f4f4fd;
-  padding: 120px 0;
+  
 }
 .ourteam {
   margin: 0 auto 72px;
@@ -167,23 +142,19 @@ height: 104px;
   text-align: center;
   color: #2e2f42;
 }
-.photo {display: flex;
+.photo {
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   list-style: none;
-  padding: 0;
   margin: 0;
-  gap: 24px;
+  
   list-style: none;
 }
 .photo li{background-color: #fff;
-  border-radius: 0 0 4px 4px;}
+  }
 
 
-.photo img{width: 100%;
-  height: auto;
-  display: block;}
+.photo img{}
   
 .photo h3{font-weight: 500;
 font-size: 20px;
@@ -206,19 +177,14 @@ color:#434455;}
 
 .portfolio-container{
   margin: auto;
-  width: 1128px;
-height: 1000px;
 }
 .portfolio-container h2{
-  display: flex
-  ;justify-content: center;
-  align-items: center;
+  justify-content: center;
   margin-top: 120px;
 
 }
-.our-works{display: flex;
+.our-works{
  justify-content: center;
-  align-items: center;
   margin-top: 72px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
@@ -227,23 +193,19 @@ height: 1000px;
   color: #2e2f42;}
 
 .apps
-{ display: flex;
+{
   list-style: none;
-  padding: 0;
   margin: 0;
   margin-top: 72px;
   margin-bottom: 120px;
-gap: 24px;}
+}
 
-.apps li { width: 360px;
+.apps li { 
   background-color: #fff;
-  border-radius: 0 0 4px 4px;
   text-align: left;}
 
 .apps img {
-  width: 360px;
-height: 300px;
-  display: block;}
+  }
 
 
 .apps h3 {font-weight: 500;
@@ -260,21 +222,13 @@ letter-spacing: 0.02em;
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
   margin: auto;
   margin-top: 120px;
   background: #2e2f42;
   color: white;
-  padding: 100px 0;
 }
 .footer-container {
-   max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;}
+  margin: 0 auto;}
 
 
 .web-footer,.studio-footer {
@@ -291,8 +245,6 @@ text-transform: uppercase;
 
 
 .solutions{
-  width: 264px;
-  padding-top: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             font-weight: 400;
